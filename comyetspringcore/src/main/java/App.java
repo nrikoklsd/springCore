@@ -9,6 +9,7 @@ public class App {
 
     Client client;
     EventLogger eventLogger;
+
     void logEvent(String msg){
         eventLogger.logEvent(msg);
     }
@@ -17,9 +18,9 @@ public class App {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
         App app = (App) ctx.getBean("app");
 
-
         app.logEvent("Some event for user1");
         app.logEvent("Some event for user2");
-        
+
+
     }
 }
