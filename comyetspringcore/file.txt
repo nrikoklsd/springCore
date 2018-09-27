@@ -1,8 +1,4 @@
-Some event for user1
-Some event for user2
-Some event for user1
-Some event for user2
-Some event for user1
-Some event for user2
-[Some event for user1, Some event for user2]
-[Some event for user1, Some event for user2]
+console and file
+[cache ]
+console and file
+[cache ]

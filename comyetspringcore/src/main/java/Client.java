@@ -1,4 +1,9 @@
 public class Client {
+    private String greeting;
+
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
+    }
 
     private String id;
     private String fullName;
